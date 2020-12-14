@@ -62,7 +62,7 @@ public Login() {
 
         jLabel10.setText("jLabel10");
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\OSHANI THARANGA\\Desktop\\invtrysystm\\Login-icon.png")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\OSHANI THARANGA\\Documents\\NetBeansProjects\\InventoryManagmentSystem\\invtrysystm.icons\\Login-icon.png")); // NOI18N
         jLabel11.setText("jLabel11");
 
         jPanel5.setBackground(new java.awt.Color(0, 0, 51));
@@ -93,9 +93,9 @@ public Login() {
 
         pass1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\OSHANI THARANGA\\Desktop\\invtrysystm\\App-login-manager-icon.png")); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\OSHANI THARANGA\\Documents\\NetBeansProjects\\InventoryManagmentSystem\\invtrysystm.icons\\App-login-manager-icon.png")); // NOI18N
 
-        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Users\\OSHANI THARANGA\\Desktop\\invtrysystm\\secrecy-icon.png")); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Users\\OSHANI THARANGA\\Documents\\NetBeansProjects\\InventoryManagmentSystem\\invtrysystm.icons\\secrecy-icon.png")); // NOI18N
         jLabel15.setText("jLabel15");
 
         jbtnExit.setText("Exit");
@@ -232,7 +232,7 @@ public Login() {
             if (rss.next()) {
                 NewWelcome  = new NewWelcome();
                 NewWelcome.setVisible(true);
-                this.dispose();
+               
             } else {
                 JOptionPane.showMessageDialog(null,"Invalid username or password","Access Denied",JOptionPane.ERROR_MESSAGE);
             }
@@ -278,11 +278,11 @@ public Login() {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Login().setVisible(true);
-            }
-        });
+       // java.awt.EventQueue.invokeLater(new Runnable() {
+         //   public void run() {
+          //      new Login().setVisible(true);
+           // }
+        //});
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

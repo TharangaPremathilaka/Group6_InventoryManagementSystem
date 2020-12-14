@@ -42,7 +42,7 @@ public class projectUI extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(" INVENTORY MANAGEMENT SYSTEM");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\OSHANI THARANGA\\Desktop\\invtrysystm\\download.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\OSHANI THARANGA\\Documents\\NetBeansProjects\\InventoryManagmentSystem\\invtrysystm.icons\\download.png")); // NOI18N
         jLabel2.setText("jLabel2");
 
         Percentage.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
