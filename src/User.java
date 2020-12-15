@@ -142,10 +142,7 @@ public class User extends javax.swing.JFrame {
 
         UserTbl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                { new Integer(1),  new Integer(932569), "          Oshani",  new Integer(779484606)},
-                { new Integer(2),  new Integer(932185), "     Madushani",  new Integer(785234159)},
-                { new Integer(3),  new Integer(952145), "            Kasun",  new Integer(778521239)},
-                {null, null, null, null}
+
             },
             new String [] {
                 "No", "Id", "Name", "Mobile"

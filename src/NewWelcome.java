@@ -102,11 +102,12 @@ public class NewWelcome extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-      
+       NewWelcome NewWelcome = new NewWelcome();
+       NewWelcome.setVisible(true);
         try{
             {
-               
-                Home view = new Home();
+               NewWelcome.setVisible(false);
+               Home view = new Home();
                view.setVisible(true);
             }
        }

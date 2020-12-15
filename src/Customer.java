@@ -75,10 +75,10 @@ public class Customer extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(277, 277, 277)
+                        .addGap(289, 289, 289)
                         .addComponent(jLabel7))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(385, 385, 385)
+                        .addGap(400, 400, 400)
                         .addComponent(jLabel11)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -138,10 +138,7 @@ public class Customer extends javax.swing.JFrame {
 
         UserTbl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                { new Integer(1),  new Integer(9527632), "         Sandun",  new Integer(751289637)},
-                { new Integer(2),  new Integer(9672195), "            Amali",  new Integer(785694120)},
-                { new Integer(3),  new Integer(9825896), "         Tharaka",  new Integer(773521006)},
-                {null, null, null, null}
+
             },
             new String [] {
                 "No", "Id", "Name", "Mobile"
