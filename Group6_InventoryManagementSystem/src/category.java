@@ -320,6 +320,7 @@ public class category extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void homeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_homeActionPerformed
+
         // TODO add your handling code here:
     }//GEN-LAST:event_homeActionPerformed
 
