@@ -6,7 +6,6 @@
 import java.awt.HeadlessException;
 import java.sql.*;
 import javax.swing.JOptionPane;
-import net.proteanit.sql.DbUtils;
 /**
  *
  * @author User
@@ -390,7 +389,7 @@ public class product extends javax.swing.JFrame {
     }//GEN-LAST:event_clearPActionPerformed
 
     private void HomePActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HomePActionPerformed
-    // TODO add your handling code here:
+        // TODO add your handling code here:
     }//GEN-LAST:event_HomePActionPerformed
 
     private void productnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_productnameActionPerformed
